@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:buttonBarNegativeButtonStyle">@style/ButtonStyle</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/ButtonStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.DestructiveDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:buttonBarNegativeButtonStyle">@style/ButtonStyle</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/DestructiveButtonStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/blue_light_02</item>
+    </style>
+
+    <style name="DestructiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+</resources>
