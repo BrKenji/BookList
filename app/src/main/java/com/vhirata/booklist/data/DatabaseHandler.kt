@@ -85,7 +85,7 @@ class DatabaseHandler(var context: Context, var chosenActivity: String): SQLiteO
 
         var result = db.insert(SELECTED_TABLE, null, values)
 
-        if (result == -1.toLong()) {
+        if (result == (-1).toLong()) {
             Toast.makeText(context, "Failed", Toast.LENGTH_SHORT).show()
         } else {
             Toast.makeText(context, "Success", Toast.LENGTH_SHORT).show()

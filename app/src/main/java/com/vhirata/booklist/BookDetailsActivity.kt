@@ -7,6 +7,7 @@ import android.widget.TextView
 import com.vhirata.booklist.data.DatabaseHandler
 
 class BookDetailsActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_book_details)
